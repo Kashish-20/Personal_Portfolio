@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashish - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>Personal Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="home-section">
+        <div class="container home-content">
+            <img src="photo.jpg" alt="Kashish" class="profile-photo">
+            <div class="intro-text">
+                <h2>Hi, I'm Kashish</h2>
+                <p class="about-text">I'm a B.Tech IT Engineering student with a deep interest in technology and innovation. My strong foundation in computer science principles drives me to apply my skills to tackle real-world challenges and contribute to technological advancements. Let's create the future together!</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="about-text">I am currently a Fourth-year student pursuing a degree in Information Technology at Bharati Vidyapeeth College of Engineering. Throughout my academic journey, I have developed a strong foundation in AI, machine learning, and web development, completing several projects in these areas. In addition to my technical skills, I also have a passion for singing, which has helped me develop my creativity and soft skills, such as communication and teamwork. I believe in balancing both professional and personal growth, and I'm excited about the opportunities to further develop my skills and contribute to innovative projects.</p>
+            <a id="resume-button" class="resume-button" href="#">Download Resume</a>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>AI/ML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>MySQL</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Java (DSA)</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Personal Portfolio</h3>
+                <p>A personal portfolio website showcasing my skills, projects, and professional background.<a href="https://yourprojectlink.com/fraud-detection" target="_blank" class="button">Source Code</a></p>
+            </div>
+            <div class="project">
+                <h3>Sorting Visualizer</h3>
+                <p>A website to visualize various sorting algorithms. <a href="https://github.com/Kashish-20/Sorting_Visualizer" target="_blank" class="button">Source Code</a></p>
+            </div>
+            <div class="project">
+                <h3>Credit Card Fraud Detection</h3>
+                <p>Model to detect fraudulent transactions using machine learning algorithms. <a href="https://github.com/Kashish-20/Credit_Card_Fraud_Detection" target="_blank" class="button">Source Code</a></p>
+            </div>
+            <div class="project">
+                <h3>Customer Churn Prediction</h3>
+                <p>Predictive model for customer churn with various machine learning algorithms. <a href="https://github.com/Kashish-20/Customer_Churn_Prediction" target="_blank" class="button">Source Code</a></p>
+            </div>
+            <div class="project">
+                <h3>Twitter Sentiment Analysis</h3>
+                <p>Analyzed Twitter data to determine sentiment using logistic regression. <a href="https://github.com/Kashish-20/Twitter_Sentiment_Analysis-/tree/main" target="_blank" class="button">Source Code</a></p>
+            </div>
+            <div class="project">
+                <h3>Book Recommendation System</h3>
+                <p>A hybrid recommender system combining content analysis with user preferences. <a href="https://github.com/Kashish-20/Book_Recommendation_System" target="_blank" class="button">Source Code</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container contact-section">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+                <p id="form-message"></p>
+            </form>
+            <p>If you would like to get in touch, please reach out via <a href="mailto:kashishkoli2001@gmail.com"><i class="fas fa-envelope icon"></i>Email</a> or connect with me on <a href="https://linkedin.com/in/kashish-koli-696942242" target="_blank"><i class="fab fa-linkedin icon"></i>LinkedIn</a>.</p>
+        </div>
+
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <ul class="footer-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p>&copy; 2024 All rights reserved</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
